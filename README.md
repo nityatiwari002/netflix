@@ -16,7 +16,7 @@ In the project directory, you can do the following:
 `npm run eject`
 
 ## Deployment
-Deployed the project using Netlify.com, and it works on continuous build. You can view the website by following the link below :
+Deployed the project using Netlify. You can view the website by following the link below :
 *https://netflix-clone-ntiw.netlify.app*
 
 
