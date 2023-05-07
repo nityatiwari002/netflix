@@ -1,0 +1,18 @@
+.titleTxt{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 2.6rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+
+@media (max-width:750px) {
+    .titleTxt{
+        padding: 2px;
+        font-size: 1.5rem;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+}

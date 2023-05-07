@@ -1,5 +1,5 @@
 .Header{
-    background-image: url(./../assets/netflix-poster.jpg);
+    /* background-image: url(./../assets/netflix-poster.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,7 +8,9 @@
     box-sizing: border-box;
 }
 .overlay{
-    background-color: rgba(0, 3, 20, 0.7);
+    padding-top: 15%;
+    padding-left: 10%;
+    background-color: rgba(0, 3, 20, 0.4);
     height: 100%;
     width: 100%;
     box-sizing: border-box;
@@ -17,5 +19,16 @@
 @media (max-width:750px){
     .Header{
         height: 50vh;
+    }
+    .overlay{
+        padding-left: 0;
+        padding-top: 10%;
+    }
+}
+
+@media (max-widht:500px){
+    .overlay{
+        padding: 2px;
+        padding-left: 0;
     }
 }
