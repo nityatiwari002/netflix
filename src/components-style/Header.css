@@ -1,0 +1,15 @@
+.Header{
+    background-image: url(./../assets/netflix-poster.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    box-sizing: border-box;
+}
+.overlay{
+    background-color: rgba(0, 3, 20, 0.7);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
