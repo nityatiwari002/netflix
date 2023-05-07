@@ -32,7 +32,7 @@
 
 @media (max-width:500px){
     .cardcover{
-        padding: 2px;
+        padding: 0px 2px;
     }
     .cardimg{
         height: 170px;
