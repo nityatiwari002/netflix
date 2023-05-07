@@ -1,0 +1,32 @@
+.buttons-header{
+    background-color: transparent;
+    /* justify-content: space-around; */
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.header-but{
+    margin-right: 10px;
+    color:white;
+    padding: 5px 15px;
+    background-color: rgba(94, 88, 88, 0.805);
+    border: none;
+    border-radius: 2px;
+}
+
+@media (max-width:750px){
+    .buttons-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header-but{
+        align-items: center;
+        text-align: center;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+}
