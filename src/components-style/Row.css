@@ -8,3 +8,10 @@
     overflow-y: hidden;
 
 }
+
+@media (max-width:500px){
+    .row{
+        padding-left: 0;
+    }
+
+}

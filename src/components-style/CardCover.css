@@ -29,3 +29,15 @@
 .thumbimg{
     height: 120px;
 }
+
+@media (max-width:500px){
+    .cardcover{
+        padding: 2px;
+    }
+    .cardimg{
+        height: 170px;
+    }
+    .thumbimg{
+        height: 80px;
+    }
+}
