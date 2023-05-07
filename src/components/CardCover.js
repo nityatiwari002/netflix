@@ -26,6 +26,7 @@ function CardCover(fetchURL) {
     return (
         <div className="cardcover">
             {movies.map((movie) => (
+                <div>
                 <img
                     key={movie.id}
                     className={thumb === "Y" ? `cardimg thumbimg` : `cardimg`}
@@ -35,7 +36,10 @@ function CardCover(fetchURL) {
                             : `${imgUrl}${movie.poster_path}`
                     }
                     alt={movie.title}
-                />
+                    title={movie.title}
+                /> 
+                <div className="movie-name">{movie.title}</div>
+                </div>
             ))}
         </div>
     );
