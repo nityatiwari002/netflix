@@ -5,6 +5,7 @@ import Title from "./Title";
 import Buttons from '../components/Buttons';
 import axios from "../utilities/axios";
 import requests from "../utilities/requests";
+import '../App.css';
 
 const imgUrl = "https://image.tmdb.org/t/p/original";
 
@@ -26,10 +27,11 @@ function Header() {
             className="Header"
             style={{ backgroundImage: `url(${imgUrl}${movie.backdrop_path})` }}
         >
-            <div className="overlay">
-                <Title content={movie.title} />
+            <div className="overlay" key={movie}>
+                <Title content={movie?.title || movie?.name} />
                 <Buttons />
                 <Description content={movie.overview} />
+            <div className="fadeout"></div>
             </div>
         </header>
     );

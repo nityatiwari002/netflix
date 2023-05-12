@@ -1,0 +1,10 @@
+.fadeout {
+    height: 11.4rem;
+    background: transparent;
+    background: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61), 
+        #111
+    );
+}

@@ -3,11 +3,13 @@ import Header from "./components/Header";
 import Row from "./components/Row";
 import requests from "./utilities/requests";
 import Footer from "./components/Footer"
+import './App.css';
 
 function App(){
     return (
         <div className="App">
             <Header/>
+            {/* <div className="fadeout"></div> */}
             <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals}/>
             <Row title="TOP RATED" fetchUrl={requests.fetchTopRated} thumbnail/>
             <Row title="TRENDING" fetchUrl={requests.fetchTrending} thumbnail/>

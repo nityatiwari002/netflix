@@ -38,7 +38,10 @@ function CardCover(fetchURL) {
                     alt={movie.title}
                     title={movie.title}
                 /> 
-                <div className="movie-name">{movie.title}</div>
+                <div className="movie-name" key={movie}>
+                    {movie?.title || movie?.name}
+                </div>
+                
                 </div>
             ))}
         </div>
